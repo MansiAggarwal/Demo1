@@ -32,10 +32,17 @@
   </dependencies>
  
   <repositories>
-      <repository>
-          <id>central</id>
-          <url>https://repo.maven.apache.org/maven2</url>
-      </repository>
+    <repository>
+        <id>central</id>
+        <name>Maven Central Repository</name>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
   </repositories>
 
   <build>
