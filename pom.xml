@@ -93,6 +93,6 @@
     <SnapshotRepository>
       <id>artifactory</id>
       <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-    </repository>
+    </SnapshotRepository>
   </distributionManagement>
 </project>
